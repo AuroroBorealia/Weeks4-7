@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Meow : MonoBehaviour
 {
+
+    //Where I got my cat meow sound effects: 
+    //https://pixabay.com/users/u_6ekfl947a2-48694237/ - https://pixabay.com/sound-effects/cat-meow-297927/ 
+    //https://pixabay.com/users/freesound_community-46691455/ - https://pixabay.com/sound-effects/cat-meow-81626/
+    //https://pixabay.com/sound-effects/cat-meow-14536/
+    //Where I got my PNGs: 
+    //https://www.vecteezy.com/members/101078976245586861694 - https://www.vecteezy.com/png/48803704-cat-alpha-background
+    //https://www.vecteezy.com/members/devendrasingh007 - https://www.vecteezy.com/png/20004432-grey-cat-lying-and-looking-up
+    //https://www.vecteezy.com/members/em3asy - https://www.vecteezy.com/png/48470484-cute-fluffy-cat-with-blue-eyes 
+
     //setting up my variables
     public SpriteRenderer catGrey;
     public SpriteRenderer bigCat;
