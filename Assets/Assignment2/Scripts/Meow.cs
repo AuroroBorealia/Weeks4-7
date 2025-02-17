@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class Meow : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //setting up my variables
+    public SpriteRenderer catGrey;
+    public SpriteRenderer bigCat;
+    public SpriteRenderer fluffyCat;
+    public AudioClip greyMeow;
+    public AudioClip fluffyMeow;
+    public AudioClip bigMeow;
+
     void Start()
     {
         
