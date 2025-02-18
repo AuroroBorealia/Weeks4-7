@@ -19,6 +19,7 @@ public class Meow : MonoBehaviour
     public AudioClip fluffyMeow;
     public AudioClip bigMeow;
 
+    //Animation curve variables
     public AnimationCurve curve;
     [Range(0, 1)]
     public float t;
@@ -33,20 +34,24 @@ public class Meow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //New vector 3 to make the euler angles spin and chcange based on the curve
         Vector3 spin = transform.eulerAngles;
         spin.z = curve.Evaluate(t);
 
+        //If statement to make it so spin turns on when space is pressed
         if (Input.GetKey(KeyCode.Space))
         {
             isSpinning = true;
         }
 
+        //Makes it so the spins happens
         if (isSpinning == true)
         {
             t += Time.deltaTime;
 
             transform.localEulerAngles = spin;
 
+            //make the spin stop after a second
             if (t>1)
             {
                 t = 0;

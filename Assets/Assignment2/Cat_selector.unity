@@ -487,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   greyMeow: {fileID: 0}
   fluffyMeow: {fileID: 0}
-  bigMeow: {fileID: 0}
+  bigMeow: {fileID: 8300000, guid: f8c1113900dc4cf4dbc8d4b2f513d2d1, type: 3}
   curve:
     serializedVersion: 2
     m_Curve:
@@ -746,7 +746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52c527e425fdcd4c9cb4112ebe52271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greyMeow: {fileID: 0}
+  greyMeow: {fileID: 8300000, guid: 543f245e0789c1e4f9593f023f7883df, type: 3}
   fluffyMeow: {fileID: 0}
   bigMeow: {fileID: 0}
   curve:
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greyMeow: {fileID: 0}
-  fluffyMeow: {fileID: 0}
+  fluffyMeow: {fileID: 8300000, guid: d930491a1e04b3c4da144554a871e4bc, type: 3}
   bigMeow: {fileID: 0}
   curve:
     serializedVersion: 2
