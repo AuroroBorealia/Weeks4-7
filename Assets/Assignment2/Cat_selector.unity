@@ -151,7 +151,7 @@ RectTransform:
   m_GameObject: {fileID: 139735079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1510911908}
@@ -398,6 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439689669}
   - component: {fileID: 439689668}
+  - component: {fileID: 439689670}
   m_Layer: 0
   m_Name: Big_Cat
   m_TagString: Untagged
@@ -472,6 +473,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439689670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439689667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52c527e425fdcd4c9cb4112ebe52271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greyMeow: {fileID: 0}
+  fluffyMeow: {fileID: 0}
+  bigMeow: {fileID: 0}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 5169.861
+      outSlope: 5169.861
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0625
+    - serializedVersion: 3
+      time: 0.65315163
+      value: 1443.2677
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  t: 0
 --- !u!1 &634161092
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 817042822}
   - component: {fileID: 817042821}
+  - component: {fileID: 817042823}
   m_Layer: 0
   m_Name: Grey_cat
   m_TagString: Untagged
@@ -692,6 +734,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817042823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817042820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52c527e425fdcd4c9cb4112ebe52271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greyMeow: {fileID: 0}
+  fluffyMeow: {fileID: 0}
+  bigMeow: {fileID: 0}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1918.5046
+      outSlope: 1918.5046
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.042509466
+    - serializedVersion: 3
+      time: 0.625659
+      value: 721.8984
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  t: 0
 --- !u!1 &879578713
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +937,7 @@ RectTransform:
   m_GameObject: {fileID: 925707336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 634161093}
@@ -863,9 +945,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 229.72, y: 82.64984}
+  m_AnchoredPosition: {x: 5.784149, y: 0}
   m_SizeDelta: {x: 447.8717, y: 165.29968}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &925707338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,7 +1203,7 @@ RectTransform:
   m_GameObject: {fileID: 1070183805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 879578714}
@@ -1129,7 +1211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 3.52, y: 0}
+  m_AnchoredPosition: {x: 3.519989, y: 0}
   m_SizeDelta: {x: 447.8717, y: 165.29968}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1070183807
@@ -1387,12 +1469,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52c527e425fdcd4c9cb4112ebe52271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catGrey: {fileID: 817042821}
-  bigCat: {fileID: 439689668}
-  fluffyCat: {fileID: 1535539175}
   greyMeow: {fileID: 8300000, guid: d930491a1e04b3c4da144554a871e4bc, type: 3}
   fluffyMeow: {fileID: 8300000, guid: f8c1113900dc4cf4dbc8d4b2f513d2d1, type: 3}
   bigMeow: {fileID: 8300000, guid: 543f245e0789c1e4f9593f023f7883df, type: 3}
+  curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  t: 0
 --- !u!4 &1341688573
 Transform:
   m_ObjectHideFlags: 0
@@ -1646,6 +1732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1535539176}
   - component: {fileID: 1535539175}
+  - component: {fileID: 1535539177}
   m_Layer: 0
   m_Name: Fluffy_Cat
   m_TagString: Untagged
@@ -1720,6 +1807,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1535539177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535539174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52c527e425fdcd4c9cb4112ebe52271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greyMeow: {fileID: 0}
+  fluffyMeow: {fileID: 0}
+  bigMeow: {fileID: 0}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 90.71746
+      outSlope: 90.71746
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.061495475
+    - serializedVersion: 3
+      time: 0.6782179
+      value: 366.81625
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  t: 0
 --- !u!1 &1768808079
 GameObject:
   m_ObjectHideFlags: 0

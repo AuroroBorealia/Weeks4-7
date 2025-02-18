@@ -15,12 +15,15 @@ public class Meow : MonoBehaviour
     //https://www.vecteezy.com/members/em3asy - https://www.vecteezy.com/png/48470484-cute-fluffy-cat-with-blue-eyes 
 
     //setting up my variables
-    public SpriteRenderer catGrey;
-    public SpriteRenderer bigCat;
-    public SpriteRenderer fluffyCat;
     public AudioClip greyMeow;
     public AudioClip fluffyMeow;
     public AudioClip bigMeow;
+
+    public AnimationCurve curve;
+    [Range(0, 1)]
+    public float t;
+
+    bool isSpinning = false;
 
     void Start()
     {
@@ -30,6 +33,27 @@ public class Meow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 spin = transform.eulerAngles;
+        spin.z = curve.Evaluate(t);
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            isSpinning = true;
+        }
+
+        if (isSpinning == true)
+        {
+            t += Time.deltaTime;
+
+            transform.localEulerAngles = spin;
+
+            if (t>1)
+            {
+                t = 0;
+                spin.z = 0;
+                transform.eulerAngles = spin;
+                isSpinning = false;
+            }
+        }
     }
 }
