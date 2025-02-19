@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Meow : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class Meow : MonoBehaviour
     public float t;
 
     bool isSpinning = false;
+
+    //I tried to make a slider that changes the scale of the cat but it didn't work so. welp.
+   // float catScale;
 
     void Start()
     {
@@ -60,5 +64,14 @@ public class Meow : MonoBehaviour
                 isSpinning = false;
             }
         }
+
+        //Vector3 tempScale = transform.localScale;
+        //tempScale.x = catScale;
+        
     }
+
+    //public void catSize(float c)
+    //{
+       // catScale = c;
+   // }
 }
